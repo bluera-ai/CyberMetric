@@ -56,3 +56,11 @@ ollama run llama3.1:70b
 # run benchmark in parallel
 python OllamaCyberMetricEvaluator.py
 ```
+
+## Dynamic Parameters
+
+Model names and Test dataset names can also be provided dynamically via the cmd line:
+
+```bash
+python OllamaCyberMetricEvaluator.py --model llama3.1:70b --test CyberMetric-500-v1
+```
